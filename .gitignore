@@ -1,0 +1,30 @@
+/scratch/
+/logs/
+/outputs/
+
+# Local binaries and compiler output. Distribute reviewed builds via Releases.
+*.exe
+*.dll
+*.obj
+*.res
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Historical machine-specific notes stay local.
+/work/native-refactor.md
+
+# Credentials and local editor settings.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+.vs/
+.vscode/
+.idea/
+__pycache__/
+*.pyc
